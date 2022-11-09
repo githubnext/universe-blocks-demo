@@ -117,7 +117,7 @@ const onAddMona = ({
       imageWrapper.style.transition = `transform ${duration}ms linear`
       imageWrapper.style.transform = `translate(${isMovingRight ? parentElement.clientWidth + 75 : -75}px, 0)`
     } else {
-      imageWrapper.style.transition = "transform 10s"
+      imageWrapper.style.transition = `all ${duration}ms linear`
       imageWrapper.style.transform = "scale(0)"
       imageWrapper.style.opacity = 0
     }
