@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hepta+Slab&display=swap');
 @import url('https://rsms.me/inter/inter.css');
 
 body {
@@ -45,7 +45,7 @@ body {
   --color-coral-800: #801f0f;
   --color-coral-900: #691105;
   --color-coral-1000: #510901;
-  --font-serif: "Alike";
+  --font-serif: "Hepta Slab";
   --font-sans-serif: "Inter";
 
   font-family: var(--font-sans-serif);
