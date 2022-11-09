@@ -260,6 +260,35 @@
           2.122453515833513
         ]
       ]
+    },
+    {
+      "id": "zATNejF5SMmVMfJHKPgve",
+      "type": "text",
+      "x": 638.1843872070312,
+      "y": 328.0968780517578,
+      "width": 139,
+      "height": 25,
+      "angle": 0,
+      "strokeColor": "#000000",
+      "backgroundColor": "transparent",
+      "fillStyle": "hachure",
+      "strokeWidth": 1,
+      "strokeStyle": "solid",
+      "roughness": 1,
+      "opacity": 100,
+      "groupIds": [],
+      "strokeSharpness": "sharp",
+      "seed": 1204633183,
+      "version": 19,
+      "versionNonce": 1591896959,
+      "isDeleted": false,
+      "boundElementIds": null,
+      "text": "Hello Universe!",
+      "fontSize": 20,
+      "fontFamily": 1,
+      "textAlign": "left",
+      "verticalAlign": "top",
+      "baseline": 18
     }
   ],
   "appState": {
