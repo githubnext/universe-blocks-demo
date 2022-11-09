@@ -161,4 +161,10 @@ const playConfetti = (wrapper, colors = defaultColors) => {
   }
 }
 
+// preload images
+Object.values(imageUrls).forEach((url) => {
+  const img = new Image()
+  img.src = url
+})
+
 module.exports = onAddMona
