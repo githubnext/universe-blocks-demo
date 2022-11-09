@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Alike&display=swap');
+@import url('https://rsms.me/inter/inter.css');
+
+body {
+  margin: 0;
+  line-height: 1.6em;
+
+  --color-gray-100: #f6f8fa;
+  --color-gray-200: #eaeef2;
+  --color-gray-300: #d0d7de;
+  --color-gray-400: #afb8c1;
+  --color-gray-500: #8c959f;
+  --color-gray-600: #6e7781;
+  --color-gray-700: #57606a;
+  --color-gray-800: #424a53;
+  --color-gray-900: #32383f;
+  --color-gray-1000: #24292f;
+  --color-blue-100: #ddf4ff;
+  --color-blue-200: #b6e3ff;
+  --color-blue-300: #80ccff;
+  --color-blue-400: #54aeff;
+  --color-blue-500: #218bff;
+  --color-blue-600: #0969da;
+  --color-blue-700: #0550ae;
+  --color-blue-800: #033d8b;
+  --color-blue-900: #0a3069;
+  --color-blue-1000: #002155;
+  --color-purple-100: #fbefff;
+  --color-purple-200: #ecd8ff;
+  --color-purple-300: #d8b9ff;
+  --color-purple-400: #c297ff;
+  --color-purple-500: #a475f9;
+  --color-purple-600: #8250df;
+  --color-purple-700: #6639ba;
+  --color-purple-800: #512a97;
+  --color-purple-900: #3e1f79;
+  --color-purple-1000: #2e1461;
+  --color-coral-100: #fff0eb;
+  --color-coral-200: #ffd6cc;
+  --color-coral-300: #ffb4a1;
+  --color-coral-400: #fd8c73;
+  --color-coral-500: #ec6547;
+  --color-coral-600: #c4432b;
+  --color-coral-700: #9e2f1c;
+  --color-coral-800: #801f0f;
+  --color-coral-900: #691105;
+  --color-coral-1000: #510901;
+  --font-serif: "Alike";
+  --font-sans-serif: "Inter";
+
+  font-family: var(--font-sans-serif);
+
+  --font-size-l: 1.5rem;
+  --font-size-m: 1rem;
+  --font-size-s: 0.8rem;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--font-serif);
+  margin: 0 0 0.5em 0;
+  font-weight: 800;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 6em;
+  line-height: 1.03em;
+}
+
+h2 {
+  font-size: 6em;
+  line-height: 1.3em;
+}
+
+h3 {
+  font-size: 1.6em;
+  line-height: 1.3em;
+}
+h4 {
+  font-size: 1.6em;
+  font-weight: 800;
+  line-height: 1.3em;
+}
+h5 {
+  font-size: 1.3em;
+  font-weight: 800;
+  line-height: 1.5em;
+}
+
+h6 {
+  margin-bottom: 0.8em;
+  font-size: 0.86em;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--gray-dark);
+  letter-spacing: 0.16em;
+  font-family: var(--font-sans-serif);
+}
+
+p {
+  font-family: var(--font-sans-serif);
+  margin: 0.3em 0 1em;
+}
