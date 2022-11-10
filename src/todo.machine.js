@@ -7,6 +7,11 @@ export const toggleMachine = createMachine({
       retries: 0
     },
     states: {
+      idle: {
+        on: {
+          FETCH: 'loading'
+        }
+      },
       loading: {
         on: {
           RESOLVE: 'success',
