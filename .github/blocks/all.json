@@ -1,5 +1,8 @@
 {
   "docs/demos/demo.js": {
     "default": "githubnext__universe-blocks-demo-blocks__mona.js"
+  },
+  "src/state-machines/fetch.machine.js": {
+    "default": "Wattenberger__state-machine-block__file-block"
   }
 }
