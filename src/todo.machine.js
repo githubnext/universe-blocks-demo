@@ -2,7 +2,7 @@ import { createMachine } from 'xstate';
 
 export const toggleMachine = createMachine({
     id: 'fetch',
-    initial: 'loading',
+    initial: 'idle',
     context: {
       retries: 0
     },
