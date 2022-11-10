@@ -1,18 +1,33 @@
 import { createMachine } from 'xstate';
 
-// Edit your machine(s) here
 export const toggleMachine = createMachine({
-  id: 'machine',
-  initial: 'inactive',
-  context: {
-    count: 0
-  },
-  states: {
-    inactive: {
-      on: { TOGGLE: 'active' }
+    id: 'fetch',
+    initial: 'idle',
+    context: {
+      retries: 0
     },
-    active: {
-      on: { TOGGLE: 'inactive' }
+    states: {
+      idle: {
+        on: {
+          FETCH: 'loading'
+        }
+      },
+      loading: {
+        on: {
+          RESOLVE: 'success',
+          REJECT: 'failure'
+        }
+      },
+      success: {
+        type: 'final'
+      },
+      failure: {
+        on: {
+          RETRY: {
+            target: 'loading',
+            actions: "do something"
+          }
+        }
+      }
     }
-  }
 });
